@@ -1,5 +1,17 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+ .container
+  h1 Welcome to your Weather App
+  br
+  br
+  h2 Tuning in from IP Address:
+  br
+  h2 Longitude:
+  br
+  h1 Placeholder
+  br
+  form(action='/' method='post')
+   .form-group
+    input.form-control(type='text' name="location" placeholder='Location')
+   Button.form-control(type="submit" class='btn btn-info') Submit
