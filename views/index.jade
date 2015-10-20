@@ -5,13 +5,18 @@ block content
   h1 Welcome to your Weather App
   br
   br
-  h2 Tuning in from IP Address:
+  h2.ip Tuning in from IP Address:
   br
-  h2 Longitude:
+  h2.long Longitude:
+  h2.lat  Latitude
   br
-  h1 Placeholder
+  h1.currentWeather Placeholder
+  h2.temp
   br
   form(action='/' method='post')
    .form-group
-    input.form-control(type='text' name="location" placeholder='Location')
-   Button.form-control(type="submit" class='btn btn-info') Submit
+    input.form-control(type='text' name="location" placeholder='Location' )
+   Button.form-control(type="submit" class='btn btn-info' id="click") Submit
+
+  br
+  h1.weather
