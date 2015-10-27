@@ -1,7 +1,7 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background: url('http://www.psdgraphics.com/file/colorful-triangles-background.jpg')
+  /*background: url('http://www.psdgraphics.com/file/colorful-triangles-background.jpg')*/
 }
 
 a {
@@ -10,4 +10,8 @@ a {
 
 .container{
   text-align: center;
+}
+h1{
+  font-size: 40px;
+  font-style: bold;
 }
